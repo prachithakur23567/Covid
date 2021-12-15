@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.0",
     "chart.js": "^2.9.4",
     "leaflet": "^1.7.1",
     "numeral": "^2.0.6",
@@ -20,9 +21,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-deploy -d build",
-    
+    "predeploy": "npm run build",
+    "deploy": "gh-deploy -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
